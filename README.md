@@ -28,7 +28,7 @@ $ ./run.sh
 
 [![](https://img.shields.io/docker/pulls/b4fun/pushgateway-curl)](https://hub.docker.com/repository/docker/b4fun/pushgateway-curl/general)
 
-- [v2020062501](https://hub.docker.com/layers/b4fun/pushgateway-curl/v2020062501/images/sha256-81154156b6a3150ea16a5f14df7f8f4d65624f28edc07d386082fd7b728d0f66?context=repo)
+- [v2020062502](https://hub.docker.com/layers/b4fun/pushgateway-curl/v2020062502/images/sha256-b946f38850ca66fed344161e558db09122f61762f29b133da9e54edfdeeec511?context=repo)
 
 ## LICENSE
 

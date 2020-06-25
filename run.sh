@@ -18,6 +18,8 @@ PUSHGATEWAY_HOST="${2:-"${PUSHGATEWAY_HOST:-""}"}"
 PUSHGATEWAY_BASIC_AUTH_USERNAME="${PUSHGATEWAY_BASIC_AUTH_USERNAME:-""}"
 # env:PUSHGATEWAY_BASIC_AUTH_PASSWORD: pushgateway basic auth password
 PUSHGATEWAY_BASIC_AUTH_PASSWORD="${PUSHGATEWAY_BASIC_AUTH_PASSWORD:-""}"
+# env:PUSHGATEWAY_METHOD: request method to use, defaults to PUT
+PUSHGATEWAY_METHOD="${PUSHGATEWAY_METHOD:-"PUT"}"
 
 # env:METRIC_SOURCE_URL: metric source url to read from
 METRIC_SOURCE_URL="${METRIC_SOURCE_URL:-""}"
@@ -65,6 +67,9 @@ dest_args=()
 
 require_var "PUSHGATEWAY_METRICS_URL"
 dest_args+=("${PUSHGATEWAY_METRICS_URL}")
+require_var "PUSHGATEWAY_METHOD"
+dest_args+=("--request")
+dest_args+=("${PUSHGATEWAY_METHOD}")
 
 if [[ -n "${PUSHGATEWAY_HOST}" ]]; then
     dest_args+=("--header")
