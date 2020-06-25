@@ -1,0 +1,2 @@
+# TYPE hello counter
+hello{label="foobar"} 42
