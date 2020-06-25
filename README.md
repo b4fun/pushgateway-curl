@@ -24,6 +24,12 @@ $ export PUSH_INTERVAL_IN_SECONDS=3
 $ ./run.sh
 ```
 
+### Using as Docker Image
+
+[![](https://img.shields.io/docker/pulls/b4fun/pushgateway-curl)](https://hub.docker.com/repository/docker/b4fun/pushgateway-curl/general)
+
+- [v2020062501](https://hub.docker.com/layers/b4fun/pushgateway-curl/v2020062501/images/sha256-81154156b6a3150ea16a5f14df7f8f4d65624f28edc07d386082fd7b728d0f66?context=repo)
+
 ## LICENSE
 
 MIT
