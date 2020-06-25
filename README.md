@@ -24,7 +24,7 @@ $ export PUSH_INTERVAL_IN_SECONDS=3
 $ ./run.sh
 ```
 
-### Using as Docker Image
+### Use as Docker Image
 
 [![](https://img.shields.io/docker/pulls/b4fun/pushgateway-curl)](https://hub.docker.com/repository/docker/b4fun/pushgateway-curl/general)
 
