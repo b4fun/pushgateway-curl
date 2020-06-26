@@ -4,4 +4,4 @@ RUN apk add --no-cache curl bash
 
 WORKDIR /
 COPY run.sh /run.sh
-CMD /run.sh
+ENTRYPOINT /run.sh
